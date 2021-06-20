@@ -1,0 +1,1023 @@
+filter data: mem[  0]=   1
+filter data: mem[  1]=   2
+filter data: mem[  2]=   3
+filter data: mem[  3]=   4
+filter data: mem[  4]=   5
+filter data: mem[  5]=   1
+filter data: mem[  6]=   2
+filter data: mem[  7]=   3
+filter data: mem[  8]=   4
+filter data: mem[  9]=   5
+filter data: mem[ 10]=   1
+filter data: mem[ 11]=   2
+filter data: mem[ 12]=   3
+filter data: mem[ 13]=   4
+filter data: mem[ 14]=   5
+filter data: mem[ 15]=   1
+filter data: mem[ 16]=   2
+filter data: mem[ 17]=   3
+filter data: mem[ 18]=   4
+filter data: mem[ 19]=   5
+filter data: mem[ 20]=   1
+filter data: mem[ 21]=   2
+filter data: mem[ 22]=   3
+filter data: mem[ 23]=   4
+mapper data: mem[  0]=   0
+filter data: mem[ 24]=   5
+mapper data: mem[  1]=   0
+mapper data: mem[  2]=   0
+mapper data: mem[  3]=   0
+mapper data: mem[  4]=   0
+mapper data: mem[  5]=   0
+mapper data: mem[  6]=   0
+mapper data: mem[  7]=   1
+mapper data: mem[  8]=   1
+mapper data: mem[  9]=   1
+mapper data: mem[ 10]=   1
+mapper data: mem[ 11]=   1
+mapper data: mem[ 12]=   1
+mapper data: mem[ 13]=   1
+mapper data: mem[ 14]=   2
+mapper data: mem[ 15]=   2
+mapper data: mem[ 16]=   2
+mapper data: mem[ 17]=   2
+mapper data: mem[ 18]=   2
+mapper data: mem[ 19]=   2
+mapper data: mem[ 20]=   2
+mapper data: mem[ 21]=   3
+mapper data: mem[ 22]=   3
+mapper data: mem[ 23]=   3
+mapper data: mem[ 24]=   3
+mapper data: mem[ 25]=   3
+mapper data: mem[ 26]=   3
+mapper data: mem[ 27]=   3
+mapper data: mem[ 28]=   4
+mapper data: mem[ 29]=   4
+mapper data: mem[ 30]=   4
+mapper data: mem[ 31]=   4
+mapper data: mem[ 32]=   4
+mapper data: mem[ 33]=   4
+mapper data: mem[ 34]=   4
+mapper data: mem[ 35]=   5
+mapper data: mem[ 36]=   5
+mapper data: mem[ 37]=   5
+mapper data: mem[ 38]=   5
+mapper data: mem[ 39]=   5
+mapper data: mem[ 40]=   5
+mapper data: mem[ 41]=   5
+mapper data: mem[ 42]=   0
+mapper data: mem[ 43]=   0
+mapper data: mem[ 44]=   0
+mapper data: mem[ 45]=   0
+mapper data: mem[ 46]=   0
+mapper data: mem[ 47]=   0
+testbench.tb sent start token at            864.10 ns
+testbench.sys_ctrl start token received at            864.10 ns 
+data 100011000100000000 is sent from router           2 to it's child1 (dest address is  1) at time
+869.1data 100101000100000101 is sent from router           6 to it's parent at time
+869.1data 101001000100001111 is sent from router          10 to it's parent at time
+869.1data 100111000100001010 is sent from router           6 to it's parent (dest address is  1) at time
+870.1data 100101000100000101 is sent from router           4 to it's child1 (dest address is  1) at time
+870.1data 101001000100001111 is sent from router          12 to it's parent at time
+870.1testbench.r2 data 100101000100000101 received at router           2, at time            870.10 ns
+data 101011000100010100 is sent from router          10 to it's parent (dest address is  1) at time
+871.1testbench.r4 data 101001000100001111 received at router           4, at time            871.10 ns
+data 100111000100001010 is sent from router           4 to it's child1 (dest address is  1) at time
+872.1data 101011000100010100 is sent from router          12 to it's parent at time
+872.1testbench.r2 data 100111000100001010 received at router           2, at time            872.10 ns
+testbench.r4 data 101011000100010100 received at router           4, at time            873.10 ns
+data 101001000100001111 is sent from router           4 to it's child2 at time
+874.1testbench.r2 data 101001000100001111 received at router           2, at time            874.10 ns
+mapper data: mem[ 48]=   0
+data 101011000100010100 is sent from router           4 to it's child2 at time
+876.1testbench.r2 data 101011000100010100 received at router           2, at time            876.10 ns
+data 100101000100000101 is sent from router           2 to it's child2 at time
+895data 100001001100000001 is sent from router           2 to it's child2 at time
+896data 100111000100001010 is sent from router           2 to it's child2 at time
+914data 100001010100000001 is sent from router           2 to it's parent at time
+915data 100001010100000001 is sent from router           4 to it's child2 at time
+916testbench.r6 data 100001010100000001 received at router           6, at time            916.00 ns
+data 100001010100000001 is sent from router           6 to it's child2 at time
+917data 100101000100000110 is sent from router           6 to it's parent at time
+922data 100101000100000110 is sent from router           4 to it's child1 (dest address is  1) at time
+923testbench.r2 data 100101000100000110 received at router           2, at time            923.00 ns
+data 101001000100001111 is sent from router           2 to it's child2 at time
+933data 100001011100000001 is sent from router           2 to it's parent at time
+934data 100001011100000001 is sent from router           4 to it's child2 at time
+935testbench.r6 data 100001011100000001 received at router           6, at time            935.00 ns
+data 100001011100000001 is sent from router           6 to it's child2 at time
+936data 100111000100001011 is sent from router           6 to it's parent (dest address is  1) at time
+941data 100111000100001011 is sent from router           4 to it's child1 (dest address is  1) at time
+942testbench.r2 data 100111000100001011 received at router           2, at time            942.00 ns
+data 101011000100010100 is sent from router           2 to it's child2 at time
+952data 100001100100000001 is sent from router           2 to it's parent at time
+953data 100001100100000001 is sent from router           4 to it's parent at time
+954testbench.r12 data 100001100100000001 received at router          12, at time            955.00 ns
+data 100001100100000001 is sent from router          12 to it's child2 at time
+956testbench.r10 data 100001100100000001 received at router          10, at time            956.00 ns
+data 100001100100000001 is sent from router          10 to it's child2 at time
+957data 101001000100010000 is sent from router          10 to it's parent at time
+962data 101001000100010000 is sent from router          12 to it's parent at time
+963testbench.r4 data 101001000100010000 received at router           4, at time            964.00 ns
+data 101001000100010000 is sent from router           4 to it's child2 at time
+965testbench.r2 data 101001000100010000 received at router           2, at time            965.00 ns
+data 100101000100000110 is sent from router           2 to it's child2 at time
+971data 100001101100000001 is sent from router           2 to it's parent at time
+972data 100001101100000001 is sent from router           4 to it's parent at time
+973testbench.r12 data 100001101100000001 received at router          12, at time            974.00 ns
+data 100001101100000001 is sent from router          12 to it's child2 at time
+975testbench.r10 data 100001101100000001 received at router          10, at time            975.00 ns
+data 100001101100000001 is sent from router          10 to it's child2 at time
+976data 101011000100010101 is sent from router          10 to it's parent (dest address is  1) at time
+981data 101011000100010101 is sent from router          12 to it's parent at time
+982testbench.r4 data 101011000100010101 received at router           4, at time            983.00 ns
+data 101011000100010101 is sent from router           4 to it's child2 at time
+984testbench.r2 data 101011000100010101 received at router           2, at time            984.00 ns
+data 100111000100001011 is sent from router           2 to it's child2 at time
+990data 100001010100000010 is sent from router           2 to it's parent at time
+991data 100001010100000010 is sent from router           4 to it's child2 at time
+992testbench.r6 data 100001010100000010 received at router           6, at time            992.00 ns
+data 100001010100000010 is sent from router           6 to it's child2 at time
+993data 100101000100000111 is sent from router           6 to it's parent at time
+998data 100101000100000111 is sent from router           4 to it's child1 (dest address is  1) at time
+999testbench.r2 data 100101000100000111 received at router           2, at time            999.00 ns
+data 101001000100010000 is sent from router           2 to it's child2 at time
+1009data 100001011100000010 is sent from router           2 to it's parent at time
+1010data 100001011100000010 is sent from router           4 to it's child2 at time
+1011testbench.r6 data 100001011100000010 received at router           6, at time           1011.00 ns
+data 100001011100000010 is sent from router           6 to it's child2 at time
+1012data 100111000100001100 is sent from router           6 to it's parent (dest address is  1) at time
+1017data 100111000100001100 is sent from router           4 to it's child1 (dest address is  1) at time
+1018testbench.r2 data 100111000100001100 received at router           2, at time           1018.00 ns
+data 101011000100010101 is sent from router           2 to it's child2 at time
+1028data 100001100100000010 is sent from router           2 to it's parent at time
+1029data 100001100100000010 is sent from router           4 to it's parent at time
+1030testbench.r12 data 100001100100000010 received at router          12, at time           1031.00 ns
+data 100001100100000010 is sent from router          12 to it's child2 at time
+1032testbench.r10 data 100001100100000010 received at router          10, at time           1032.00 ns
+data 100001100100000010 is sent from router          10 to it's child2 at time
+1033data 101001000100010001 is sent from router          10 to it's parent at time
+1038data 101001000100010001 is sent from router          12 to it's parent at time
+1039testbench.r4 data 101001000100010001 received at router           4, at time           1040.00 ns
+data 101001000100010001 is sent from router           4 to it's child2 at time
+1041testbench.r2 data 101001000100010001 received at router           2, at time           1041.00 ns
+data 100101000100000111 is sent from router           2 to it's child2 at time
+1047data 100001101100000010 is sent from router           2 to it's parent at time
+1048data 100001101100000010 is sent from router           4 to it's parent at time
+1049testbench.r12 data 100001101100000010 received at router          12, at time           1050.00 ns
+data 100001101100000010 is sent from router          12 to it's child2 at time
+1051testbench.r10 data 100001101100000010 received at router          10, at time           1051.00 ns
+data 100001101100000010 is sent from router          10 to it's child2 at time
+1052data 101011000100010110 is sent from router          10 to it's parent (dest address is  1) at time
+1057data 101011000100010110 is sent from router          12 to it's parent at time
+1058testbench.r4 data 101011000100010110 received at router           4, at time           1059.00 ns
+data 101011000100010110 is sent from router           4 to it's child2 at time
+1060testbench.r2 data 101011000100010110 received at router           2, at time           1060.00 ns
+data 100111000100001100 is sent from router           2 to it's child2 at time
+1066data 100001010100000011 is sent from router           2 to it's parent at time
+1067data 100001010100000011 is sent from router           4 to it's child2 at time
+1068testbench.r6 data 100001010100000011 received at router           6, at time           1068.00 ns
+data 100001010100000011 is sent from router           6 to it's child2 at time
+1069data 100101000100001000 is sent from router           6 to it's parent at time
+1074data 100101000100001000 is sent from router           4 to it's child1 (dest address is  1) at time
+1075testbench.r2 data 100101000100001000 received at router           2, at time           1075.00 ns
+data 101001000100010001 is sent from router           2 to it's child2 at time
+1085data 100001011100000011 is sent from router           2 to it's parent at time
+1086data 100001011100000011 is sent from router           4 to it's child2 at time
+1087testbench.r6 data 100001011100000011 received at router           6, at time           1087.00 ns
+data 100001011100000011 is sent from router           6 to it's child2 at time
+1088data 100111000100001101 is sent from router           6 to it's parent (dest address is  1) at time
+1093data 100111000100001101 is sent from router           4 to it's child1 (dest address is  1) at time
+1094testbench.r2 data 100111000100001101 received at router           2, at time           1094.00 ns
+data 101011000100010110 is sent from router           2 to it's child2 at time
+1104data 100001100100000011 is sent from router           2 to it's parent at time
+1105data 100001100100000011 is sent from router           4 to it's parent at time
+1106testbench.r12 data 100001100100000011 received at router          12, at time           1107.00 ns
+data 100001100100000011 is sent from router          12 to it's child2 at time
+1108testbench.r10 data 100001100100000011 received at router          10, at time           1108.00 ns
+data 100001100100000011 is sent from router          10 to it's child2 at time
+1109data 101001000100010010 is sent from router          10 to it's parent at time
+1114data 101001000100010010 is sent from router          12 to it's parent at time
+1115testbench.r4 data 101001000100010010 received at router           4, at time           1116.00 ns
+data 101001000100010010 is sent from router           4 to it's child2 at time
+1117testbench.r2 data 101001000100010010 received at router           2, at time           1117.00 ns
+data 100101000100001000 is sent from router           2 to it's child2 at time
+1123data 100001101100000011 is sent from router           2 to it's parent at time
+1124data 100001101100000011 is sent from router           4 to it's parent at time
+1125testbench.r12 data 100001101100000011 received at router          12, at time           1126.00 ns
+data 100001101100000011 is sent from router          12 to it's child2 at time
+1127testbench.r10 data 100001101100000011 received at router          10, at time           1127.00 ns
+data 100001101100000011 is sent from router          10 to it's child2 at time
+1128data 101011000100010111 is sent from router          10 to it's parent (dest address is  1) at time
+1133data 101011000100010111 is sent from router          12 to it's parent at time
+1134testbench.r4 data 101011000100010111 received at router           4, at time           1135.00 ns
+data 101011000100010111 is sent from router           4 to it's child2 at time
+1136testbench.r2 data 101011000100010111 received at router           2, at time           1136.00 ns
+data 100111000100001101 is sent from router           2 to it's child2 at time
+1142data 100001010100000100 is sent from router           2 to it's parent at time
+1143data 100001010100000100 is sent from router           4 to it's child2 at time
+1144testbench.r6 data 100001010100000100 received at router           6, at time           1144.00 ns
+data 100001010100000100 is sent from router           6 to it's child2 at time
+1145data 100101000100001001 is sent from router           6 to it's parent at time
+1150data 100101000100001001 is sent from router           4 to it's child1 (dest address is  1) at time
+1151testbench.r2 data 100101000100001001 received at router           2, at time           1151.00 ns
+data 101001000100010010 is sent from router           2 to it's child2 at time
+1161data 100001011100000100 is sent from router           2 to it's parent at time
+1162data 100001011100000100 is sent from router           4 to it's child2 at time
+1163testbench.r6 data 100001011100000100 received at router           6, at time           1163.00 ns
+data 100001011100000100 is sent from router           6 to it's child2 at time
+1164data 100111000100001110 is sent from router           6 to it's parent (dest address is  1) at time
+1169data 100111000100001110 is sent from router           4 to it's child1 (dest address is  1) at time
+1170testbench.r2 data 100111000100001110 received at router           2, at time           1170.00 ns
+data 101011000100010111 is sent from router           2 to it's child2 at time
+1180data 100001100100000100 is sent from router           2 to it's parent at time
+1181data 100001100100000100 is sent from router           4 to it's parent at time
+1182testbench.r12 data 100001100100000100 received at router          12, at time           1183.00 ns
+data 100001100100000100 is sent from router          12 to it's child2 at time
+1184testbench.r10 data 100001100100000100 received at router          10, at time           1184.00 ns
+data 100001100100000100 is sent from router          10 to it's child2 at time
+1185data 101001000100010011 is sent from router          10 to it's parent at time
+1190data 101001000100010011 is sent from router          12 to it's parent at time
+1191testbench.r4 data 101001000100010011 received at router           4, at time           1192.00 ns
+data 101001000100010011 is sent from router           4 to it's child2 at time
+1193testbench.r2 data 101001000100010011 received at router           2, at time           1193.00 ns
+data 100101000100001001 is sent from router           2 to it's child2 at time
+1199data 100001101100000100 is sent from router           2 to it's parent at time
+1200data 100001101100000100 is sent from router           4 to it's parent at time
+1201testbench.r12 data 100001101100000100 received at router          12, at time           1202.00 ns
+data 100001101100000100 is sent from router          12 to it's child2 at time
+1203testbench.r10 data 100001101100000100 received at router          10, at time           1203.00 ns
+data 100001101100000100 is sent from router          10 to it's child2 at time
+1204data 101011000100011000 is sent from router          10 to it's parent (dest address is  1) at time
+1209data 101011000100011000 is sent from router          12 to it's parent at time
+1210testbench.r4 data 101011000100011000 received at router           4, at time           1211.00 ns
+data 101011000100011000 is sent from router           4 to it's child2 at time
+1212testbench.r2 data 101011000100011000 received at router           2, at time           1212.00 ns
+data 100111000100001110 is sent from router           2 to it's child2 at time
+1218data 100001010100000101 is sent from router           2 to it's parent at time
+1219data 100001010100000101 is sent from router           4 to it's child2 at time
+1220testbench.r6 data 100001010100000101 received at router           6, at time           1220.00 ns
+data 100001010100000101 is sent from router           6 to it's child2 at time
+1221data 010101000100000111 is sent from router           6 to it's parent at time
+1226data 010101000100000111 is sent from router           4 to it's child1 (dest address is  1) at time
+1227testbench.r2 data 010101000100000111 received at router           2, at time           1227.00 ns
+data 101001000100010011 is sent from router           2 to it's child2 at time
+1237data 100001011100000101 is sent from router           2 to it's parent at time
+1238data 100001011100000101 is sent from router           4 to it's child2 at time
+1239testbench.r6 data 100001011100000101 received at router           6, at time           1239.00 ns
+data 100001011100000101 is sent from router           6 to it's child2 at time
+1240data 010111000100001110 is sent from router           6 to it's parent (dest address is  1) at time
+1245data 010111000100001110 is sent from router           4 to it's child1 (dest address is  1) at time
+1246testbench.r2 data 010111000100001110 received at router           2, at time           1246.00 ns
+data 101011000100011000 is sent from router           2 to it's child2 at time
+1256data 100001100100000101 is sent from router           2 to it's parent at time
+1257data 100001100100000101 is sent from router           4 to it's parent at time
+1258testbench.r12 data 100001100100000101 received at router          12, at time           1259.00 ns
+data 100001100100000101 is sent from router          12 to it's child2 at time
+1260testbench.r10 data 100001100100000101 received at router          10, at time           1260.00 ns
+data 100001100100000101 is sent from router          10 to it's child2 at time
+1261data 011001000100010101 is sent from router          10 to it's parent at time
+1266data 011001000100010101 is sent from router          12 to it's parent at time
+1267testbench.r4 data 011001000100010101 received at router           4, at time           1268.00 ns
+data 011001000100010101 is sent from router           4 to it's child2 at time
+1269testbench.r2 data 011001000100010101 received at router           2, at time           1269.00 ns
+data 010101000100000111 is sent from router           2 to it's child2 at time
+1275data 100001101100000101 is sent from router           2 to it's parent at time
+1276data 100001101100000101 is sent from router           4 to it's parent at time
+1277testbench.r12 data 100001101100000101 received at router          12, at time           1278.00 ns
+data 100001101100000101 is sent from router          12 to it's child2 at time
+1279testbench.r10 data 100001101100000101 received at router          10, at time           1279.00 ns
+data 100001101100000101 is sent from router          10 to it's child2 at time
+1280data 011011000100011100 is sent from router          10 to it's parent (dest address is  1) at time
+1285data 011011000100011100 is sent from router          12 to it's parent at time
+1286testbench.r4 data 011011000100011100 received at router           4, at time           1287.00 ns
+data 011011000100011100 is sent from router           4 to it's child2 at time
+1288testbench.r2 data 011011000100011100 received at router           2, at time           1288.00 ns
+data 010111000100001110 is sent from router           2 to it's child2 at time
+1294data 010001010100000001 is sent from router           2 to it's parent at time
+1295data 010001010100000001 is sent from router           4 to it's child2 at time
+1296testbench.r6 data 010001010100000001 received at router           6, at time           1296.00 ns
+data 010001010100000001 is sent from router           6 to it's child2 at time
+1297data 010101000100001000 is sent from router           6 to it's parent at time
+1302data 010101000100001000 is sent from router           4 to it's child1 (dest address is  1) at time
+1303testbench.r2 data 010101000100001000 received at router           2, at time           1303.00 ns
+data 011001000100010101 is sent from router           2 to it's child2 at time
+1313data 010001011100000010 is sent from router           2 to it's parent at time
+1314data 010001011100000010 is sent from router           4 to it's child2 at time
+1315testbench.r6 data 010001011100000010 received at router           6, at time           1315.00 ns
+data 010001011100000010 is sent from router           6 to it's child2 at time
+1316data 010111000100001111 is sent from router           6 to it's parent (dest address is  1) at time
+1321data 010111000100001111 is sent from router           4 to it's child1 (dest address is  1) at time
+1322testbench.r2 data 010111000100001111 received at router           2, at time           1322.00 ns
+data 011011000100011100 is sent from router           2 to it's child2 at time
+1332data 010001100100000011 is sent from router           2 to it's parent at time
+1333data 010001100100000011 is sent from router           4 to it's parent at time
+1334testbench.r12 data 010001100100000011 received at router          12, at time           1335.00 ns
+data 010001100100000011 is sent from router          12 to it's child2 at time
+1336testbench.r10 data 010001100100000011 received at router          10, at time           1336.00 ns
+data 010001100100000011 is sent from router          10 to it's child2 at time
+1337data 011001000100010110 is sent from router          10 to it's parent at time
+1342data 011001000100010110 is sent from router          12 to it's parent at time
+1343testbench.r4 data 011001000100010110 received at router           4, at time           1344.00 ns
+data 011001000100010110 is sent from router           4 to it's child2 at time
+1345testbench.r2 data 011001000100010110 received at router           2, at time           1345.00 ns
+data 010101000100001000 is sent from router           2 to it's child2 at time
+1351data 010001101100000100 is sent from router           2 to it's parent at time
+1352data 010001101100000100 is sent from router           4 to it's parent at time
+1353testbench.r12 data 010001101100000100 received at router          12, at time           1354.00 ns
+data 010001101100000100 is sent from router          12 to it's child2 at time
+1355testbench.r10 data 010001101100000100 received at router          10, at time           1355.00 ns
+data 010001101100000100 is sent from router          10 to it's child2 at time
+1356data 011011000100011101 is sent from router          10 to it's parent (dest address is  1) at time
+1361data 011011000100011101 is sent from router          12 to it's parent at time
+1362testbench.r4 data 011011000100011101 received at router           4, at time           1363.00 ns
+data 011011000100011101 is sent from router           4 to it's child2 at time
+1364testbench.r2 data 011011000100011101 received at router           2, at time           1364.00 ns
+data 010111000100001111 is sent from router           2 to it's child2 at time
+1370data 010001010100000001 is sent from router           2 to it's parent at time
+1371data 010001010100000001 is sent from router           4 to it's child2 at time
+1372testbench.r6 data 010001010100000001 received at router           6, at time           1372.00 ns
+data 010001010100000001 is sent from router           6 to it's child2 at time
+1373data 010101000100001001 is sent from router           6 to it's parent at time
+1378data 010101000100001001 is sent from router           4 to it's child1 (dest address is  1) at time
+1379testbench.r2 data 010101000100001001 received at router           2, at time           1379.00 ns
+data 011001000100010110 is sent from router           2 to it's child2 at time
+1389data 010001011100000010 is sent from router           2 to it's parent at time
+1390data 010001011100000010 is sent from router           4 to it's child2 at time
+1391testbench.r6 data 010001011100000010 received at router           6, at time           1391.00 ns
+data 010001011100000010 is sent from router           6 to it's child2 at time
+1392data 010111000100010000 is sent from router           6 to it's parent (dest address is  1) at time
+1397data 010111000100010000 is sent from router           4 to it's child1 (dest address is  1) at time
+1398testbench.r2 data 010111000100010000 received at router           2, at time           1398.00 ns
+data 011011000100011101 is sent from router           2 to it's child2 at time
+1408data 010001100100000011 is sent from router           2 to it's parent at time
+1409data 010001100100000011 is sent from router           4 to it's parent at time
+1410testbench.r12 data 010001100100000011 received at router          12, at time           1411.00 ns
+data 010001100100000011 is sent from router          12 to it's child2 at time
+1412testbench.r10 data 010001100100000011 received at router          10, at time           1412.00 ns
+data 010001100100000011 is sent from router          10 to it's child2 at time
+1413data 011001000100010111 is sent from router          10 to it's parent at time
+1418data 011001000100010111 is sent from router          12 to it's parent at time
+1419testbench.r4 data 011001000100010111 received at router           4, at time           1420.00 ns
+data 011001000100010111 is sent from router           4 to it's child2 at time
+1421testbench.r2 data 011001000100010111 received at router           2, at time           1421.00 ns
+data 010101000100001001 is sent from router           2 to it's child2 at time
+1427data 010001101100000100 is sent from router           2 to it's parent at time
+1428data 010001101100000100 is sent from router           4 to it's parent at time
+1429testbench.r12 data 010001101100000100 received at router          12, at time           1430.00 ns
+data 010001101100000100 is sent from router          12 to it's child2 at time
+1431testbench.r10 data 010001101100000100 received at router          10, at time           1431.00 ns
+data 010001101100000100 is sent from router          10 to it's child2 at time
+1432data 011011000100011110 is sent from router          10 to it's parent (dest address is  1) at time
+1437data 011011000100011110 is sent from router          12 to it's parent at time
+1438testbench.r4 data 011011000100011110 received at router           4, at time           1439.00 ns
+data 011011000100011110 is sent from router           4 to it's child2 at time
+1440testbench.r2 data 011011000100011110 received at router           2, at time           1440.00 ns
+data 010111000100010000 is sent from router           2 to it's child2 at time
+1446data 010001010100000001 is sent from router           2 to it's parent at time
+1447data 010001010100000001 is sent from router           4 to it's child2 at time
+1448testbench.r6 data 010001010100000001 received at router           6, at time           1448.00 ns
+data 010001010100000001 is sent from router           6 to it's child2 at time
+1449data 010101000100001010 is sent from router           6 to it's parent at time
+1454data 010101000100001010 is sent from router           4 to it's child1 (dest address is  1) at time
+1455testbench.r2 data 010101000100001010 received at router           2, at time           1455.00 ns
+data 011001000100010111 is sent from router           2 to it's child2 at time
+1465data 010001011100000010 is sent from router           2 to it's parent at time
+1466data 010001011100000010 is sent from router           4 to it's child2 at time
+1467testbench.r6 data 010001011100000010 received at router           6, at time           1467.00 ns
+data 010001011100000010 is sent from router           6 to it's child2 at time
+1468data 010111000100010001 is sent from router           6 to it's parent (dest address is  1) at time
+1473data 010111000100010001 is sent from router           4 to it's child1 (dest address is  1) at time
+1474testbench.r2 data 010111000100010001 received at router           2, at time           1474.00 ns
+data 011011000100011110 is sent from router           2 to it's child2 at time
+1484data 010001100100000011 is sent from router           2 to it's parent at time
+1485data 010001100100000011 is sent from router           4 to it's parent at time
+1486testbench.r12 data 010001100100000011 received at router          12, at time           1487.00 ns
+data 010001100100000011 is sent from router          12 to it's child2 at time
+1488testbench.r10 data 010001100100000011 received at router          10, at time           1488.00 ns
+data 010001100100000011 is sent from router          10 to it's child2 at time
+1489data 011001000100011000 is sent from router          10 to it's parent at time
+1494data 011001000100011000 is sent from router          12 to it's parent at time
+1495testbench.r4 data 011001000100011000 received at router           4, at time           1496.00 ns
+data 011001000100011000 is sent from router           4 to it's child2 at time
+1497testbench.r2 data 011001000100011000 received at router           2, at time           1497.00 ns
+data 010101000100001010 is sent from router           2 to it's child2 at time
+1503data 010001101100000100 is sent from router           2 to it's parent at time
+1504data 010001101100000100 is sent from router           4 to it's parent at time
+1505testbench.r12 data 010001101100000100 received at router          12, at time           1506.00 ns
+data 010001101100000100 is sent from router          12 to it's child2 at time
+1507testbench.r10 data 010001101100000100 received at router          10, at time           1507.00 ns
+data 010001101100000100 is sent from router          10 to it's child2 at time
+1508data 011011000100011111 is sent from router          10 to it's parent (dest address is  1) at time
+1513data 011011000100011111 is sent from router          12 to it's parent at time
+1514testbench.r4 data 011011000100011111 received at router           4, at time           1515.00 ns
+data 011011000100011111 is sent from router           4 to it's child2 at time
+1516testbench.r2 data 011011000100011111 received at router           2, at time           1516.00 ns
+data 010111000100010001 is sent from router           2 to it's child2 at time
+1522data 010001010100000001 is sent from router           2 to it's parent at time
+1523data 010001010100000001 is sent from router           4 to it's child2 at time
+1524testbench.r6 data 010001010100000001 received at router           6, at time           1524.00 ns
+data 010001010100000001 is sent from router           6 to it's child2 at time
+1525data 010101000100001011 is sent from router           6 to it's parent at time
+1530data 010101000100001011 is sent from router           4 to it's child1 (dest address is  1) at time
+1531testbench.r2 data 010101000100001011 received at router           2, at time           1531.00 ns
+data 011001000100011000 is sent from router           2 to it's child2 at time
+1541data 010001011100000010 is sent from router           2 to it's parent at time
+1542data 010001011100000010 is sent from router           4 to it's child2 at time
+1543testbench.r6 data 010001011100000010 received at router           6, at time           1543.00 ns
+data 010001011100000010 is sent from router           6 to it's child2 at time
+1544data 010111000100010010 is sent from router           6 to it's parent (dest address is  1) at time
+1549data 010111000100010010 is sent from router           4 to it's child1 (dest address is  1) at time
+1550testbench.r2 data 010111000100010010 received at router           2, at time           1550.00 ns
+data 011011000100011111 is sent from router           2 to it's child2 at time
+1560data 010001100100000011 is sent from router           2 to it's parent at time
+1561data 010001100100000011 is sent from router           4 to it's parent at time
+1562testbench.r12 data 010001100100000011 received at router          12, at time           1563.00 ns
+data 010001100100000011 is sent from router          12 to it's child2 at time
+1564testbench.r10 data 010001100100000011 received at router          10, at time           1564.00 ns
+data 010001100100000011 is sent from router          10 to it's child2 at time
+1565data 011001000100011001 is sent from router          10 to it's parent at time
+1570data 011001000100011001 is sent from router          12 to it's parent at time
+1571testbench.r4 data 011001000100011001 received at router           4, at time           1572.00 ns
+data 011001000100011001 is sent from router           4 to it's child2 at time
+1573testbench.r2 data 011001000100011001 received at router           2, at time           1573.00 ns
+data 010101000100001011 is sent from router           2 to it's child2 at time
+1579data 010001101100000100 is sent from router           2 to it's parent at time
+1580data 010001101100000100 is sent from router           4 to it's parent at time
+1581testbench.r12 data 010001101100000100 received at router          12, at time           1582.00 ns
+data 010001101100000100 is sent from router          12 to it's child2 at time
+1583testbench.r10 data 010001101100000100 received at router          10, at time           1583.00 ns
+data 010001101100000100 is sent from router          10 to it's child2 at time
+1584data 011011000100100000 is sent from router          10 to it's parent (dest address is  1) at time
+1589data 011011000100100000 is sent from router          12 to it's parent at time
+1590testbench.r4 data 011011000100100000 received at router           4, at time           1591.00 ns
+data 011011000100100000 is sent from router           4 to it's child2 at time
+1592testbench.r2 data 011011000100100000 received at router           2, at time           1592.00 ns
+data 010111000100010010 is sent from router           2 to it's child2 at time
+1598data 010001010100000001 is sent from router           2 to it's parent at time
+1599data 010001010100000001 is sent from router           4 to it's child2 at time
+1600testbench.r6 data 010001010100000001 received at router           6, at time           1600.00 ns
+data 010001010100000001 is sent from router           6 to it's child2 at time
+1601data 010101000100001100 is sent from router           6 to it's parent at time
+1606data 010101000100001100 is sent from router           4 to it's child1 (dest address is  1) at time
+1607testbench.r2 data 010101000100001100 received at router           2, at time           1607.00 ns
+data 011001000100011001 is sent from router           2 to it's child2 at time
+1617data 010001011100000010 is sent from router           2 to it's parent at time
+1618data 010001011100000010 is sent from router           4 to it's child2 at time
+1619testbench.r6 data 010001011100000010 received at router           6, at time           1619.00 ns
+data 010001011100000010 is sent from router           6 to it's child2 at time
+1620data 010111000100010011 is sent from router           6 to it's parent (dest address is  1) at time
+1625data 010111000100010011 is sent from router           4 to it's child1 (dest address is  1) at time
+1626testbench.r2 data 010111000100010011 received at router           2, at time           1626.00 ns
+data 011011000100100000 is sent from router           2 to it's child2 at time
+1636data 010001100100000011 is sent from router           2 to it's parent at time
+1637data 010001100100000011 is sent from router           4 to it's parent at time
+1638testbench.r12 data 010001100100000011 received at router          12, at time           1639.00 ns
+data 010001100100000011 is sent from router          12 to it's child2 at time
+1640testbench.r10 data 010001100100000011 received at router          10, at time           1640.00 ns
+data 010001100100000011 is sent from router          10 to it's child2 at time
+1641data 011001000100011010 is sent from router          10 to it's parent at time
+1646data 011001000100011010 is sent from router          12 to it's parent at time
+1647testbench.r4 data 011001000100011010 received at router           4, at time           1648.00 ns
+data 011001000100011010 is sent from router           4 to it's child2 at time
+1649testbench.r2 data 011001000100011010 received at router           2, at time           1649.00 ns
+data 010101000100001100 is sent from router           2 to it's child2 at time
+1655data 010001101100000100 is sent from router           2 to it's parent at time
+1656data 010001101100000100 is sent from router           4 to it's parent at time
+1657testbench.r12 data 010001101100000100 received at router          12, at time           1658.00 ns
+data 010001101100000100 is sent from router          12 to it's child2 at time
+1659testbench.r10 data 010001101100000100 received at router          10, at time           1659.00 ns
+data 010001101100000100 is sent from router          10 to it's child2 at time
+1660data 011011000100100001 is sent from router          10 to it's parent (dest address is  1) at time
+1665data 011011000100100001 is sent from router          12 to it's parent at time
+1666testbench.r4 data 011011000100100001 received at router           4, at time           1667.00 ns
+data 011011000100100001 is sent from router           4 to it's child2 at time
+1668testbench.r2 data 011011000100100001 received at router           2, at time           1668.00 ns
+data 010111000100010011 is sent from router           2 to it's child2 at time
+1674data 010001010100000001 is sent from router           2 to it's parent at time
+1675data 010001010100000001 is sent from router           4 to it's child2 at time
+1676testbench.r6 data 010001010100000001 received at router           6, at time           1676.00 ns
+data 010001010100000001 is sent from router           6 to it's child2 at time
+1677data 010101000100001101 is sent from router           6 to it's parent at time
+1682data 010101000100001101 is sent from router           4 to it's child1 (dest address is  1) at time
+1683testbench.r2 data 010101000100001101 received at router           2, at time           1683.00 ns
+data 011001000100011010 is sent from router           2 to it's child2 at time
+1693data 010001011100000010 is sent from router           2 to it's parent at time
+1694data 010001011100000010 is sent from router           4 to it's child2 at time
+1695testbench.r6 data 010001011100000010 received at router           6, at time           1695.00 ns
+data 010001011100000010 is sent from router           6 to it's child2 at time
+1696data 010111000100010100 is sent from router           6 to it's parent (dest address is  1) at time
+1701data 010111000100010100 is sent from router           4 to it's child1 (dest address is  1) at time
+1702testbench.r2 data 010111000100010100 received at router           2, at time           1702.00 ns
+data 011011000100100001 is sent from router           2 to it's child2 at time
+1712data 010001100100000011 is sent from router           2 to it's parent at time
+1713data 010001100100000011 is sent from router           4 to it's parent at time
+1714testbench.r12 data 010001100100000011 received at router          12, at time           1715.00 ns
+data 010001100100000011 is sent from router          12 to it's child2 at time
+1716testbench.r10 data 010001100100000011 received at router          10, at time           1716.00 ns
+data 010001100100000011 is sent from router          10 to it's child2 at time
+1717data 011001000100011011 is sent from router          10 to it's parent at time
+1722data 011001000100011011 is sent from router          12 to it's parent at time
+1723testbench.r4 data 011001000100011011 received at router           4, at time           1724.00 ns
+data 011001000100011011 is sent from router           4 to it's child2 at time
+1725testbench.r2 data 011001000100011011 received at router           2, at time           1725.00 ns
+data 010101000100001101 is sent from router           2 to it's child2 at time
+1731data 010001101100000100 is sent from router           2 to it's parent at time
+1732data 010001101100000100 is sent from router           4 to it's parent at time
+1733testbench.r12 data 010001101100000100 received at router          12, at time           1734.00 ns
+data 010001101100000100 is sent from router          12 to it's child2 at time
+1735testbench.r10 data 010001101100000100 received at router          10, at time           1735.00 ns
+data 010001101100000100 is sent from router          10 to it's child2 at time
+1736data 011011000100100010 is sent from router          10 to it's parent (dest address is  1) at time
+1741data 011011000100100010 is sent from router          12 to it's parent at time
+1742testbench.r4 data 011011000100100010 received at router           4, at time           1743.00 ns
+data 011011000100100010 is sent from router           4 to it's child2 at time
+1744testbench.r2 data 011011000100100010 received at router           2, at time           1744.00 ns
+data 010111000100010100 is sent from router           2 to it's child2 at time
+1750data 010001010100000001 is sent from router           2 to it's parent at time
+1751data 010001010100000001 is sent from router           4 to it's child2 at time
+1752testbench.r6 data 010001010100000001 received at router           6, at time           1752.00 ns
+data 010001010100000001 is sent from router           6 to it's child2 at time
+1753data 011001000100011011 is sent from router           2 to it's child2 at time
+1769data 010001011100000010 is sent from router           2 to it's parent at time
+1770data 010001011100000010 is sent from router           4 to it's child2 at time
+1771testbench.r6 data 010001011100000010 received at router           6, at time           1771.00 ns
+data 010001011100000010 is sent from router           6 to it's child2 at time
+1772data 011011000100100010 is sent from router           2 to it's child2 at time
+1788data 010001100100000011 is sent from router           2 to it's parent at time
+1789data 010001100100000011 is sent from router           4 to it's parent at time
+1790testbench.r12 data 010001100100000011 received at router          12, at time           1791.00 ns
+data 010001100100000011 is sent from router          12 to it's child2 at time
+1792testbench.r10 data 010001100100000011 received at router          10, at time           1792.00 ns
+data 010001100100000011 is sent from router          10 to it's child2 at time
+1793data 100000110100001111 is sent from router           6 to it's parent at time
+1806data 100011000100000001 is sent from router           2 to it's child1 (dest address is  1) at time
+1807data 100000110100001111 is sent from router           4 to it's parent (dest address is 13) at time
+1807data 010001101100000100 is sent from router           2 to it's parent at time
+1808testbench.r12 data 100000110100001111 received at router          12, at time           1808.00 ns
+data 010001101100000100 is sent from router           4 to it's parent at time
+1809data 100000110100001111 is sent from router          12 to it's child2 at time
+1809testbench.r12 data 010001101100000100 received at router          12, at time           1810.00 ns
+data 100001001100000010 is sent from router           2 to it's child2 at time
+1811data 010001101100000100 is sent from router          12 to it's child2 at time
+1811testbench.r10 data 010001101100000100 received at router          10, at time           1811.00 ns
+data 010001101100000100 is sent from router          10 to it's child2 at time
+1812data 100000110100011110 is sent from router           6 to it's parent (dest address is 13) at time
+1825data 100011000100000010 is sent from router           2 to it's child1 (dest address is  1) at time
+1826data 100000110100011110 is sent from router           4 to it's parent (dest address is 13) at time
+1826testbench.r12 data 100000110100011110 received at router          12, at time           1827.00 ns
+data 100000110100011110 is sent from router          12 to it's child2 at time
+1828data 100001001100000011 is sent from router           2 to it's child2 at time
+1830data 100011000100000011 is sent from router           2 to it's child1 (dest address is  1) at time
+1845data 100000110100101101 is sent from router          10 to it's parent at time
+1846data 100000110100101101 is sent from router          12 to it's child2 at time
+1847data 100001001100000100 is sent from router           2 to it's child2 at time
+1849data 100001110100001111 is sent from router           6 to it's parent at time
+1856data 100001110100001111 is sent from router           4 to it's parent (dest address is 13) at time
+1857testbench.r12 data 100001110100001111 received at router          12, at time           1858.00 ns
+data 100001110100001111 is sent from router          12 to it's child2 at time
+1859data 100011000100000100 is sent from router           2 to it's child1 (dest address is  1) at time
+1864data 100000110100111100 is sent from router          10 to it's parent (dest address is 13) at time
+1865data 100000110100111100 is sent from router          12 to it's child2 at time
+1866data 100001001100000101 is sent from router           2 to it's child2 at time
+1868data 100001110100011110 is sent from router           6 to it's parent (dest address is 13) at time
+1875data 100001110100011110 is sent from router           4 to it's parent (dest address is 13) at time
+1876testbench.r12 data 100001110100011110 received at router          12, at time           1877.00 ns
+data 100001110100011110 is sent from router          12 to it's child2 at time
+1878data 010011000100000000 is sent from router           2 to it's child1 (dest address is  1) at time
+1883data 010001001100000000 is sent from router           2 to it's child2 at time
+1887data 100001110100101101 is sent from router          10 to it's parent at time
+1896data 100001110100101101 is sent from router          12 to it's child2 at time
+1897data 010011000100000001 is sent from router           2 to it's child1 (dest address is  1) at time
+1902data 010001001100000000 is sent from router           2 to it's child2 at time
+1906data 100010110100001111 is sent from router           6 to it's parent at time
+1906data 100010110100001111 is sent from router           4 to it's parent (dest address is 13) at time
+1907testbench.r12 data 100010110100001111 received at router          12, at time           1908.00 ns
+data 100010110100001111 is sent from router          12 to it's child2 at time
+1909data 100001110100111100 is sent from router          10 to it's parent (dest address is 13) at time
+1915data 100001110100111100 is sent from router          12 to it's child2 at time
+1916data 010011000100000010 is sent from router           2 to it's child1 (dest address is  1) at time
+1921data 010001001100000000 is sent from router           2 to it's child2 at time
+1925data 100010110100011110 is sent from router           6 to it's parent (dest address is 13) at time
+1925data 100010110100011110 is sent from router           4 to it's parent (dest address is 13) at time
+1926testbench.r12 data 100010110100011110 received at router          12, at time           1927.00 ns
+data 100010110100011110 is sent from router          12 to it's child2 at time
+1928data 010011000100000011 is sent from router           2 to it's child1 (dest address is  1) at time
+1940data 010001001100000000 is sent from router           2 to it's child2 at time
+1944data 100010110100101101 is sent from router          10 to it's parent at time
+1946data 100010110100101101 is sent from router          12 to it's child2 at time
+1947data 010011000100000100 is sent from router           2 to it's child1 (dest address is  1) at time
+1959data 010001001100000000 is sent from router           2 to it's child2 at time
+1963data 100010110100111100 is sent from router          10 to it's parent (dest address is 13) at time
+1965data 100010110100111100 is sent from router          12 to it's child2 at time
+1966data 010011000100000101 is sent from router           2 to it's child1 (dest address is  1) at time
+1978data 010001001100000000 is sent from router           2 to it's child2 at time
+1982data 010011000100000110 is sent from router           2 to it's child1 (dest address is  1) at time
+1997data 010001001100000000 is sent from router           2 to it's child2 at time
+2001data 100000110100000000 is sent from router           2 to it's parent (dest address is 13) at time
+2054data 100000110100000000 is sent from router           4 to it's parent at time
+2055testbench.r12 data 100000110100000000 received at router          12, at time           2056.00 ns
+data 100000110100000000 is sent from router          12 to it's child2 at time
+2057data 001101000110010110 is sent from router          12 to it's parent (dest address is  1) at time
+2063testbench.r4 data 001101000110010110 received at router           4, at time           2064.00 ns
+data 001101000110010110 is sent from router           4 to it's child2 at time
+2065testbench.r2 data 001101000110010110 received at router           2, at time           2065.00 ns
+data 001101000110010110 is sent from router           2 to it's child2 at time
+2066data 100001110100000000 is sent from router           2 to it's parent (dest address is 13) at time
+2104data 100001110100000000 is sent from router           4 to it's parent at time
+2105testbench.r12 data 100001110100000000 received at router          12, at time           2106.00 ns
+data 100001110100000000 is sent from router          12 to it's child2 at time
+2107data 001101000110010110 is sent from router          12 to it's parent (dest address is  1) at time
+2113testbench.r4 data 001101000110010110 received at router           4, at time           2114.00 ns
+data 001101000110010110 is sent from router           4 to it's child2 at time
+2115testbench.r2 data 001101000110010110 received at router           2, at time           2115.00 ns
+data 001101000110010110 is sent from router           2 to it's child2 at time
+2116data 010011000100100011 is sent from router           2 to it's child1 (dest address is  1) at time
+2150data 010001001100000101 is sent from router           2 to it's child2 at time
+2154data 100010110100000000 is sent from router           2 to it's parent (dest address is 13) at time
+2155data 100010110100000000 is sent from router           4 to it's parent at time
+2156testbench.r12 data 100010110100000000 received at router          12, at time           2157.00 ns
+data 100010110100000000 is sent from router          12 to it's child2 at time
+2158data 001101000110010110 is sent from router          12 to it's parent (dest address is  1) at time
+2164testbench.r4 data 001101000110010110 received at router           4, at time           2165.00 ns
+data 001101000110010110 is sent from router           4 to it's child2 at time
+2166testbench.r2 data 001101000110010110 received at router           2, at time           2166.00 ns
+data 010011000100100100 is sent from router           2 to it's child1 (dest address is  1) at time
+2169data 001101000110010110 is sent from router           2 to it's child2 at time
+2188data 010001001100000101 is sent from router           2 to it's child2 at time
+2189data 010011000100100101 is sent from router           2 to it's child1 (dest address is  1) at time
+2201data 010001001100000101 is sent from router           2 to it's child2 at time
+2205data 010011000100100110 is sent from router           2 to it's child1 (dest address is  1) at time
+2220data 010001001100000101 is sent from router           2 to it's child2 at time
+2224data 010011000100100111 is sent from router           2 to it's child1 (dest address is  1) at time
+2239data 010001001100000101 is sent from router           2 to it's child2 at time
+2243data 010011000100101000 is sent from router           2 to it's child1 (dest address is  1) at time
+2258data 010001001100000101 is sent from router           2 to it's child2 at time
+2262data 010011000100101001 is sent from router           2 to it's child1 (dest address is  1) at time
+2277data 010001001100000101 is sent from router           2 to it's child2 at time
+2281data 110011010100000001 is sent from router           2 to it's parent (dest address is  5) at time
+2286data 110011010100000001 is sent from router           4 to it's child2 at time
+2287testbench.r6 data 110011010100000001 received at router           6, at time           2287.00 ns
+data 110011010100000001 is sent from router           6 to it's child2 at time
+2288data 110011010100000010 is sent from router           2 to it's parent (dest address is  5) at time
+2289data 110011010100000010 is sent from router           4 to it's child2 at time
+2290testbench.r6 data 110011010100000010 received at router           6, at time           2290.00 ns
+data 110011010100000010 is sent from router           6 to it's child2 at time
+2291data 110011010100000011 is sent from router           2 to it's parent (dest address is  5) at time
+2292data 110011010100000011 is sent from router           4 to it's child2 at time
+2293testbench.r6 data 110011010100000011 received at router           6, at time           2293.00 ns
+data 110011010100000011 is sent from router           6 to it's child2 at time
+2294data 110011010100000100 is sent from router           2 to it's parent (dest address is  5) at time
+2295data 110011010100000100 is sent from router           4 to it's child2 at time
+2296testbench.r6 data 110011010100000100 received at router           6, at time           2296.00 ns
+data 110011010100000100 is sent from router           6 to it's child2 at time
+2297data 110011010100000101 is sent from router           2 to it's parent (dest address is  5) at time
+2298data 110011010100000101 is sent from router           4 to it's child2 at time
+2299testbench.r6 data 110011010100000101 received at router           6, at time           2299.00 ns
+data 110011010100000101 is sent from router           6 to it's child2 at time
+2300data 110101011100000001 is sent from router           6 to it's child2 at time
+2305data 110101011100000010 is sent from router           6 to it's child2 at time
+2308data 110101011100000011 is sent from router           6 to it's child2 at time
+2311data 110101011100000100 is sent from router           6 to it's child2 at time
+2314data 110101011100000101 is sent from router           6 to it's child2 at time
+2317data 110111100100000001 is sent from router           6 to it's parent (dest address is  9) at time
+2322data 110111100100000001 is sent from router           4 to it's parent (dest address is  9) at time
+2323testbench.r12 data 110111100100000001 received at router          12, at time           2324.00 ns
+data 110111100100000010 is sent from router           6 to it's parent (dest address is  9) at time
+2325data 110111100100000001 is sent from router          12 to it's child2 at time
+2325testbench.r10 data 110111100100000001 received at router          10, at time           2325.00 ns
+data 110111100100000010 is sent from router           4 to it's parent (dest address is  9) at time
+2326data 110111100100000001 is sent from router          10 to it's child2 at time
+2326testbench.r12 data 110111100100000010 received at router          12, at time           2327.00 ns
+data 110111100100000011 is sent from router           6 to it's parent (dest address is  9) at time
+2328data 110111100100000010 is sent from router          12 to it's child2 at time
+2328testbench.r10 data 110111100100000010 received at router          10, at time           2328.00 ns
+data 110111100100000011 is sent from router           4 to it's parent (dest address is  9) at time
+2329data 110111100100000010 is sent from router          10 to it's child2 at time
+2329testbench.r12 data 110111100100000011 received at router          12, at time           2330.00 ns
+data 110111100100000100 is sent from router           6 to it's parent (dest address is  9) at time
+2331data 110111100100000011 is sent from router          12 to it's child2 at time
+2331testbench.r10 data 110111100100000011 received at router          10, at time           2331.00 ns
+data 110111100100000100 is sent from router           4 to it's parent (dest address is  9) at time
+2332data 110111100100000011 is sent from router          10 to it's child2 at time
+2332testbench.r12 data 110111100100000100 received at router          12, at time           2333.00 ns
+data 110111100100000101 is sent from router           6 to it's parent (dest address is  9) at time
+2334data 110111100100000100 is sent from router          12 to it's child2 at time
+2334testbench.r10 data 110111100100000100 received at router          10, at time           2334.00 ns
+data 110111100100000101 is sent from router           4 to it's parent (dest address is  9) at time
+2335data 110111100100000100 is sent from router          10 to it's child2 at time
+2335testbench.r12 data 110111100100000101 received at router          12, at time           2336.00 ns
+data 110111100100000101 is sent from router          12 to it's child2 at time
+2337testbench.r10 data 110111100100000101 received at router          10, at time           2337.00 ns
+data 110111100100000101 is sent from router          10 to it's child2 at time
+2338data 111001101100000001 is sent from router          10 to it's child2 at time
+2343data 111001101100000010 is sent from router          10 to it's child2 at time
+2346data 111001101100000011 is sent from router          10 to it's child2 at time
+2349data 111001101100000100 is sent from router          10 to it's child2 at time
+2352data 111001101100000101 is sent from router          10 to it's child2 at time
+2355data 111011001100000001 is sent from router          10 to it's parent (dest address is  3) at time
+2360data 111011001100000001 is sent from router          12 to it's parent at time
+2361testbench.r4 data 111011001100000001 received at router           4, at time           2362.00 ns
+data 111011001100000010 is sent from router          10 to it's parent (dest address is  3) at time
+2363data 111011001100000001 is sent from router           4 to it's child2 at time
+2363testbench.r2 data 111011001100000001 received at router           2, at time           2363.00 ns
+data 111011001100000010 is sent from router          12 to it's parent at time
+2364data 111011001100000001 is sent from router           2 to it's child2 at time
+2364testbench.r4 data 111011001100000010 received at router           4, at time           2365.00 ns
+data 111011001100000011 is sent from router          10 to it's parent (dest address is  3) at time
+2366data 111011001100000010 is sent from router           4 to it's child2 at time
+2366testbench.r2 data 111011001100000010 received at router           2, at time           2366.00 ns
+data 111011001100000011 is sent from router          12 to it's parent at time
+2367data 111011001100000010 is sent from router           2 to it's child2 at time
+2367data 100011110100001111 is sent from router           6 to it's parent at time
+2368testbench.r4 data 111011001100000011 received at router           4, at time           2368.00 ns
+data 111011001100000100 is sent from router          10 to it's parent (dest address is  3) at time
+2369data 100011110100001111 is sent from router           4 to it's parent (dest address is 13) at time
+2369data 111011001100000011 is sent from router           4 to it's child2 at time
+2370data 111011001100000100 is sent from router          12 to it's parent at time
+2370testbench.r2 data 111011001100000011 received at router           2, at time           2370.00 ns
+testbench.r12 data 100011110100001111 received at router          12, at time           2370.00 ns
+data 111011001100000011 is sent from router           2 to it's child2 at time
+2371data 100011110100001111 is sent from router          12 to it's child2 at time
+2371testbench.r4 data 111011001100000100 received at router           4, at time           2371.00 ns
+data 111011001100000101 is sent from router          10 to it's parent (dest address is  3) at time
+2372data 111011001100000100 is sent from router           4 to it's child2 at time
+2372testbench.r2 data 111011001100000100 received at router           2, at time           2372.00 ns
+data 111011001100000101 is sent from router          12 to it's parent at time
+2373data 111011001100000100 is sent from router           2 to it's child2 at time
+2374testbench.r4 data 111011001100000101 received at router           4, at time           2374.00 ns
+data 111011001100000101 is sent from router           4 to it's child2 at time
+2375testbench.r2 data 111011001100000101 received at router           2, at time           2375.00 ns
+data 111011001100000101 is sent from router           2 to it's child2 at time
+2377data 100011110100011110 is sent from router           6 to it's parent (dest address is 13) at time
+2385data 100011110100011110 is sent from router           4 to it's parent (dest address is 13) at time
+2386testbench.r12 data 100011110100011110 received at router          12, at time           2387.00 ns
+data 100011110100011110 is sent from router          12 to it's child2 at time
+2388data 100011110100101101 is sent from router          10 to it's parent at time
+2406data 100011110100101101 is sent from router          12 to it's child2 at time
+2407data 100100110100001111 is sent from router           6 to it's parent at time
+2418data 100100110100001111 is sent from router           4 to it's parent (dest address is 13) at time
+2419testbench.r12 data 100100110100001111 received at router          12, at time           2420.00 ns
+data 100100110100001111 is sent from router          12 to it's child2 at time
+2421data 100011110100111100 is sent from router          10 to it's parent (dest address is 13) at time
+2423data 100011110100111100 is sent from router          12 to it's child2 at time
+2424data 100011110101001011 is sent from router           2 to it's parent (dest address is 13) at time
+2430data 100011110101001011 is sent from router           4 to it's parent at time
+2431testbench.r12 data 100011110101001011 received at router          12, at time           2432.00 ns
+data 100011110101001011 is sent from router          12 to it's child2 at time
+2433data 100100110100011110 is sent from router           6 to it's parent (dest address is 13) at time
+2435data 100100110100011110 is sent from router           4 to it's parent (dest address is 13) at time
+2436testbench.r12 data 100100110100011110 received at router          12, at time           2437.00 ns
+data 100100110100011110 is sent from router          12 to it's child2 at time
+2438data 001101000111100001 is sent from router          12 to it's parent (dest address is  1) at time
+2439testbench.r4 data 001101000111100001 received at router           4, at time           2440.00 ns
+data 001101000111100001 is sent from router           4 to it's child2 at time
+2441testbench.r2 data 001101000111100001 received at router           2, at time           2441.00 ns
+data 001101000111100001 is sent from router           2 to it's child2 at time
+2442data 100100110100101101 is sent from router          10 to it's parent at time
+2456data 100100110100101101 is sent from router          12 to it's child2 at time
+2457data 010101000100101010 is sent from router           6 to it's parent at time
+2464data 010101000100101010 is sent from router           4 to it's child1 (dest address is  1) at time
+2465testbench.r2 data 010101000100101010 received at router           2, at time           2465.00 ns
+data 010101000100101010 is sent from router           2 to it's child2 at time
+2466data 100101110100001111 is sent from router           6 to it's parent at time
+2468data 100101110100001111 is sent from router           4 to it's parent (dest address is 13) at time
+2469data 010001010100000000 is sent from router           2 to it's parent at time
+2470testbench.r12 data 100101110100001111 received at router          12, at time           2470.00 ns
+data 010001010100000000 is sent from router           4 to it's child2 at time
+2471data 100101110100001111 is sent from router          12 to it's child2 at time
+2471testbench.r6 data 010001010100000000 received at router           6, at time           2471.00 ns
+data 010001010100000000 is sent from router           6 to it's child2 at time
+2472data 100100110100111100 is sent from router          10 to it's parent (dest address is 13) at time
+2473data 100100110100111100 is sent from router          12 to it's child2 at time
+2474data 010101000100101011 is sent from router           6 to it's parent at time
+2477data 010101000100101011 is sent from router           4 to it's child1 (dest address is  1) at time
+2478testbench.r2 data 010101000100101011 received at router           2, at time           2478.00 ns
+data 010101000100101011 is sent from router           2 to it's child2 at time
+2485data 100101110100011110 is sent from router           6 to it's parent (dest address is 13) at time
+2485data 100100110101001011 is sent from router           2 to it's parent (dest address is 13) at time
+2486data 100101110100011110 is sent from router           4 to it's parent (dest address is 13) at time
+2486testbench.r12 data 100101110100011110 received at router          12, at time           2487.00 ns
+data 100100110101001011 is sent from router           4 to it's parent at time
+2488data 100101110100011110 is sent from router          12 to it's child2 at time
+2488data 010001010100000000 is sent from router           2 to it's parent at time
+2489testbench.r12 data 100100110101001011 received at router          12, at time           2489.00 ns
+data 010001010100000000 is sent from router           4 to it's child2 at time
+2490data 100100110101001011 is sent from router          12 to it's child2 at time
+2490testbench.r6 data 010001010100000000 received at router           6, at time           2490.00 ns
+data 010001010100000000 is sent from router           6 to it's child2 at time
+2491data 010101000100101100 is sent from router           6 to it's parent at time
+2496data 001101000111100001 is sent from router          12 to it's parent (dest address is  1) at time
+2496data 010101000100101100 is sent from router           4 to it's child1 (dest address is  1) at time
+2497testbench.r2 data 010101000100101100 received at router           2, at time           2497.00 ns
+testbench.r4 data 001101000111100001 received at router           4, at time           2497.00 ns
+data 001101000111100001 is sent from router           4 to it's child2 at time
+2499testbench.r2 data 001101000111100001 received at router           2, at time           2499.00 ns
+data 010101000100101100 is sent from router           2 to it's child2 at time
+2504data 100101110100101101 is sent from router          10 to it's parent at time
+2506data 100101110100101101 is sent from router          12 to it's child2 at time
+2507data 001101000111100001 is sent from router           2 to it's child2 at time
+2523data 100101110100111100 is sent from router          10 to it's parent (dest address is 13) at time
+2523data 010001010100000000 is sent from router           2 to it's parent at time
+2524data 100101110100111100 is sent from router          12 to it's child2 at time
+2524data 010001010100000000 is sent from router           4 to it's child2 at time
+2525testbench.r6 data 010001010100000000 received at router           6, at time           2525.00 ns
+data 010001010100000000 is sent from router           6 to it's child2 at time
+2526data 100101110101001011 is sent from router           2 to it's parent (dest address is 13) at time
+2530data 010101000100101101 is sent from router           6 to it's parent at time
+2531data 100101110101001011 is sent from router           4 to it's parent at time
+2531data 010101000100101101 is sent from router           4 to it's child1 (dest address is  1) at time
+2532testbench.r2 data 010101000100101101 received at router           2, at time           2532.00 ns
+testbench.r12 data 100101110101001011 received at router          12, at time           2532.00 ns
+data 100101110101001011 is sent from router          12 to it's child2 at time
+2533data 010101000100101101 is sent from router           2 to it's child2 at time
+2536data 001101000111100001 is sent from router          12 to it's parent (dest address is  1) at time
+2539data 010001010100000000 is sent from router           2 to it's parent at time
+2540testbench.r4 data 001101000111100001 received at router           4, at time           2540.00 ns
+data 010001010100000000 is sent from router           4 to it's child2 at time
+2541testbench.r6 data 010001010100000000 received at router           6, at time           2541.00 ns
+data 001101000111100001 is sent from router           4 to it's child2 at time
+2542data 010001010100000000 is sent from router           6 to it's child2 at time
+2542testbench.r2 data 001101000111100001 received at router           2, at time           2542.00 ns
+data 010101000100101110 is sent from router           6 to it's parent at time
+2547data 010101000100101110 is sent from router           4 to it's child1 (dest address is  1) at time
+2548testbench.r2 data 010101000100101110 received at router           2, at time           2548.00 ns
+data 001101000111100001 is sent from router           2 to it's child2 at time
+2555data 010101000100101110 is sent from router           2 to it's child2 at time
+2568data 010001010100000000 is sent from router           2 to it's parent at time
+2572data 010001010100000000 is sent from router           4 to it's child2 at time
+2573testbench.r6 data 010001010100000000 received at router           6, at time           2573.00 ns
+data 010001010100000000 is sent from router           6 to it's child2 at time
+2574data 010101000100101111 is sent from router           6 to it's parent at time
+2579data 010101000100101111 is sent from router           4 to it's child1 (dest address is  1) at time
+2580testbench.r2 data 010101000100101111 received at router           2, at time           2580.00 ns
+data 010101000100101111 is sent from router           2 to it's child2 at time
+2587data 010001010100000000 is sent from router           2 to it's parent at time
+2591data 010001010100000000 is sent from router           4 to it's child2 at time
+2592testbench.r6 data 010001010100000000 received at router           6, at time           2592.00 ns
+data 010001010100000000 is sent from router           6 to it's child2 at time
+2593data 010101000100110000 is sent from router           6 to it's parent at time
+2598data 010101000100110000 is sent from router           4 to it's child1 (dest address is  1) at time
+2599testbench.r2 data 010101000100110000 received at router           2, at time           2599.00 ns
+data 010101000100110000 is sent from router           2 to it's child2 at time
+2606data 010001010100000000 is sent from router           2 to it's parent at time
+2610data 010001010100000000 is sent from router           4 to it's child2 at time
+2611testbench.r6 data 010001010100000000 received at router           6, at time           2611.00 ns
+data 010001010100000000 is sent from router           6 to it's child2 at time
+2612data 110101011100000001 is sent from router           6 to it's child2 at time
+2617data 110101011100000010 is sent from router           6 to it's child2 at time
+2620data 110101011100000011 is sent from router           6 to it's child2 at time
+2623data 110101011100000100 is sent from router           6 to it's child2 at time
+2626data 110101011100000101 is sent from router           6 to it's child2 at time
+2629data 110111100100000001 is sent from router           6 to it's parent (dest address is  9) at time
+2634data 110111100100000001 is sent from router           4 to it's parent (dest address is  9) at time
+2635testbench.r12 data 110111100100000001 received at router          12, at time           2636.00 ns
+data 110111100100000010 is sent from router           6 to it's parent (dest address is  9) at time
+2637data 110111100100000001 is sent from router          12 to it's child2 at time
+2637testbench.r10 data 110111100100000001 received at router          10, at time           2637.00 ns
+data 110111100100000010 is sent from router           4 to it's parent (dest address is  9) at time
+2638data 110111100100000001 is sent from router          10 to it's child2 at time
+2638testbench.r12 data 110111100100000010 received at router          12, at time           2639.00 ns
+data 110111100100000011 is sent from router           6 to it's parent (dest address is  9) at time
+2640data 110111100100000010 is sent from router          12 to it's child2 at time
+2640testbench.r10 data 110111100100000010 received at router          10, at time           2640.00 ns
+data 110111100100000011 is sent from router           4 to it's parent (dest address is  9) at time
+2641data 110111100100000010 is sent from router          10 to it's child2 at time
+2641testbench.r12 data 110111100100000011 received at router          12, at time           2642.00 ns
+data 110111100100000100 is sent from router           6 to it's parent (dest address is  9) at time
+2643data 110111100100000011 is sent from router          12 to it's child2 at time
+2643testbench.r10 data 110111100100000011 received at router          10, at time           2643.00 ns
+data 110111100100000100 is sent from router           4 to it's parent (dest address is  9) at time
+2644data 110111100100000011 is sent from router          10 to it's child2 at time
+2644testbench.r12 data 110111100100000100 received at router          12, at time           2645.00 ns
+data 110111100100000101 is sent from router           6 to it's parent (dest address is  9) at time
+2646data 110111100100000100 is sent from router          12 to it's child2 at time
+2646testbench.r10 data 110111100100000100 received at router          10, at time           2646.00 ns
+data 110111100100000101 is sent from router           4 to it's parent (dest address is  9) at time
+2647data 110111100100000100 is sent from router          10 to it's child2 at time
+2647testbench.r12 data 110111100100000101 received at router          12, at time           2648.00 ns
+data 110111100100000101 is sent from router          12 to it's child2 at time
+2649testbench.r10 data 110111100100000101 received at router          10, at time           2649.00 ns
+data 110111100100000101 is sent from router          10 to it's child2 at time
+2650data 111001101100000001 is sent from router          10 to it's child2 at time
+2655data 111001101100000010 is sent from router          10 to it's child2 at time
+2658data 111001101100000011 is sent from router          10 to it's child2 at time
+2661data 111001101100000100 is sent from router          10 to it's child2 at time
+2664data 111001101100000101 is sent from router          10 to it's child2 at time
+2667data 111011001100000001 is sent from router          10 to it's parent (dest address is  3) at time
+2672data 111011001100000001 is sent from router          12 to it's parent at time
+2673testbench.r4 data 111011001100000001 received at router           4, at time           2674.00 ns
+data 111011001100000010 is sent from router          10 to it's parent (dest address is  3) at time
+2675data 111011001100000001 is sent from router           4 to it's child2 at time
+2675testbench.r2 data 111011001100000001 received at router           2, at time           2675.00 ns
+data 111011001100000010 is sent from router          12 to it's parent at time
+2676data 111011001100000001 is sent from router           2 to it's child2 at time
+2676testbench.r4 data 111011001100000010 received at router           4, at time           2677.00 ns
+data 111011001100000011 is sent from router          10 to it's parent (dest address is  3) at time
+2678data 111011001100000010 is sent from router           4 to it's child2 at time
+2678testbench.r2 data 111011001100000010 received at router           2, at time           2678.00 ns
+data 111011001100000011 is sent from router          12 to it's parent at time
+2679data 111011001100000010 is sent from router           2 to it's child2 at time
+2679testbench.r4 data 111011001100000011 received at router           4, at time           2680.00 ns
+data 111011001100000100 is sent from router          10 to it's parent (dest address is  3) at time
+2681data 111011001100000011 is sent from router           4 to it's child2 at time
+2681testbench.r2 data 111011001100000011 received at router           2, at time           2681.00 ns
+data 111011001100000100 is sent from router          12 to it's parent at time
+2682data 111011001100000011 is sent from router           2 to it's child2 at time
+2682testbench.r4 data 111011001100000100 received at router           4, at time           2683.00 ns
+data 111011001100000101 is sent from router          10 to it's parent (dest address is  3) at time
+2684data 111011001100000100 is sent from router           4 to it's child2 at time
+2684testbench.r2 data 111011001100000100 received at router           2, at time           2684.00 ns
+data 111011001100000101 is sent from router          12 to it's parent at time
+2685data 111011001100000100 is sent from router           2 to it's child2 at time
+2685testbench.r4 data 111011001100000101 received at router           4, at time           2686.00 ns
+data 111011001100000101 is sent from router           4 to it's child2 at time
+2687testbench.r2 data 111011001100000101 received at router           2, at time           2687.00 ns
+data 111011001100000101 is sent from router           2 to it's child2 at time
+2688data 110011010100000001 is sent from router           2 to it's parent (dest address is  5) at time
+2693data 110011010100000001 is sent from router           4 to it's child2 at time
+2694testbench.r6 data 110011010100000001 received at router           6, at time           2694.00 ns
+data 110011010100000001 is sent from router           6 to it's child2 at time
+2695data 110011010100000010 is sent from router           2 to it's parent (dest address is  5) at time
+2696data 100110110100011110 is sent from router           6 to it's parent (dest address is 13) at time
+2697data 110011010100000010 is sent from router           4 to it's child2 at time
+2697testbench.r6 data 110011010100000010 received at router           6, at time           2697.00 ns
+data 100110110100011110 is sent from router           4 to it's parent (dest address is 13) at time
+2698data 110011010100000010 is sent from router           6 to it's child2 at time
+2698data 110011010100000011 is sent from router           2 to it's parent (dest address is  5) at time
+2699testbench.r12 data 100110110100011110 received at router          12, at time           2699.00 ns
+data 110011010100000011 is sent from router           4 to it's child2 at time
+2700data 100110110100011110 is sent from router          12 to it's child2 at time
+2700testbench.r6 data 110011010100000011 received at router           6, at time           2700.00 ns
+data 110011010100000011 is sent from router           6 to it's child2 at time
+2701data 110011010100000100 is sent from router           2 to it's parent (dest address is  5) at time
+2702data 110011010100000100 is sent from router           4 to it's child2 at time
+2703testbench.r6 data 110011010100000100 received at router           6, at time           2703.00 ns
+data 110011010100000100 is sent from router           6 to it's child2 at time
+2704data 110011010100000101 is sent from router           2 to it's parent (dest address is  5) at time
+2705data 110011010100000101 is sent from router           4 to it's child2 at time
+2706testbench.r6 data 110011010100000101 received at router           6, at time           2706.00 ns
+data 110011010100000101 is sent from router           6 to it's child2 at time
+2707data 100110110100101101 is sent from router          10 to it's parent at time
+2718data 100110110100101101 is sent from router          12 to it's child2 at time
+2719data 100110110100111100 is sent from router          10 to it's parent (dest address is 13) at time
+2735data 100110110100111100 is sent from router          12 to it's child2 at time
+2736data 100111110100011110 is sent from router           6 to it's parent (dest address is 13) at time
+2747data 100111110100011110 is sent from router           4 to it's parent (dest address is 13) at time
+2748testbench.r12 data 100111110100011110 received at router          12, at time           2749.00 ns
+data 100111110100011110 is sent from router          12 to it's child2 at time
+2750data 100110110101001011 is sent from router           2 to it's parent (dest address is 13) at time
+2756data 100110110101001011 is sent from router           4 to it's parent at time
+2757testbench.r12 data 100110110101001011 received at router          12, at time           2758.00 ns
+data 100110110101001011 is sent from router          12 to it's child2 at time
+2759data 100110110100000000 is sent from router           6 to it's parent at time
+2760data 100110110100000000 is sent from router           4 to it's parent (dest address is 13) at time
+2761testbench.r12 data 100110110100000000 received at router          12, at time           2762.00 ns
+data 100110110100000000 is sent from router          12 to it's child2 at time
+2763data 100111110100101101 is sent from router          10 to it's parent at time
+2768data 001101000111010010 is sent from router          12 to it's parent (dest address is  1) at time
+2769data 100111110100101101 is sent from router          12 to it's child2 at time
+2770testbench.r4 data 001101000111010010 received at router           4, at time           2770.00 ns
+data 001101000111010010 is sent from router           4 to it's child2 at time
+2771testbench.r2 data 001101000111010010 received at router           2, at time           2771.00 ns
+data 001101000111010010 is sent from router           2 to it's child2 at time
+2772data 100111110100111100 is sent from router          10 to it's parent (dest address is 13) at time
+2785data 100111110100111100 is sent from router          12 to it's child2 at time
+2786data 101000110100011110 is sent from router           6 to it's parent (dest address is 13) at time
+2797data 101000110100011110 is sent from router           4 to it's parent (dest address is 13) at time
+2798testbench.r12 data 101000110100011110 received at router          12, at time           2799.00 ns
+data 101000110100011110 is sent from router          12 to it's child2 at time
+2800data 100111110101001011 is sent from router           2 to it's parent (dest address is 13) at time
+2806data 100111110101001011 is sent from router           4 to it's parent at time
+2807testbench.r12 data 100111110101001011 received at router          12, at time           2808.00 ns
+data 100111110101001011 is sent from router          12 to it's child2 at time
+2809data 100111110100000000 is sent from router           6 to it's parent at time
+2810data 100111110100000000 is sent from router           4 to it's parent (dest address is 13) at time
+2811testbench.r12 data 100111110100000000 received at router          12, at time           2812.00 ns
+data 100111110100000000 is sent from router          12 to it's child2 at time
+2813data 101000110100101101 is sent from router          10 to it's parent at time
+2818data 001101000111010010 is sent from router          12 to it's parent (dest address is  1) at time
+2819data 101000110100101101 is sent from router          12 to it's child2 at time
+2820testbench.r4 data 001101000111010010 received at router           4, at time           2820.00 ns
+data 001101000111010010 is sent from router           4 to it's child2 at time
+2821testbench.r2 data 001101000111010010 received at router           2, at time           2821.00 ns
+data 001101000111010010 is sent from router           2 to it's child2 at time
+2822data 101000110100111100 is sent from router          10 to it's parent (dest address is 13) at time
+2835data 101000110100111100 is sent from router          12 to it's child2 at time
+2836data 101000110101001011 is sent from router           2 to it's parent (dest address is 13) at time
+2856data 101000110101001011 is sent from router           4 to it's parent at time
+2857testbench.r12 data 101000110101001011 received at router          12, at time           2858.00 ns
+data 101000110101001011 is sent from router          12 to it's child2 at time
+2859data 101000110100000000 is sent from router           6 to it's parent at time
+2860data 101000110100000000 is sent from router           4 to it's parent (dest address is 13) at time
+2861testbench.r12 data 101000110100000000 received at router          12, at time           2862.00 ns
+data 101000110100000000 is sent from router          12 to it's child2 at time
+2863data 001101000111010010 is sent from router          12 to it's parent (dest address is  1) at time
+2869testbench.r4 data 001101000111010010 received at router           4, at time           2870.00 ns
+data 001101000111010010 is sent from router           4 to it's child2 at time
+2871testbench.r2 data 001101000111010010 received at router           2, at time           2871.00 ns
+data 001101000111010010 is sent from router           2 to it's child2 at time
+2872testbench.sys_ctrl sent done token at           2874.00 ns 
+testbench.tb done token received at           2874.00 ns
+total errors =           0
+testbench.tb Results compared, ending simulation at           3014.00 ns

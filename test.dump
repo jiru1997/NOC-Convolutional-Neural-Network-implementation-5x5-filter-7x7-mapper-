@@ -1,0 +1,11 @@
+mem[          1] = 150 == comp[          0] = 150
+mem[          2] = 150 == comp[          1] = 150
+mem[          3] = 150 == comp[          2] = 150
+mem[          4] = 225 == comp[          3] = 225
+mem[          5] = 225 == comp[          4] = 225
+mem[          6] = 225 == comp[          5] = 225
+mem[          7] = 210 == comp[          6] = 210
+mem[          8] = 210 == comp[          7] = 210
+mem[          9] = 210 == comp[          8] = 210
+total errors =           0
+testbench.tb Results compared, ending simulation at           3014.00 ns
