@@ -14,3 +14,5 @@ In this part, the input filter is a 5x5 matrix and input mapper is a 7x7 matrix.
 You can use QuestaSim to build and run this project.
 
 <img width="564" alt="image" src="https://user-images.githubusercontent.com/66343787/140834980-6451cb25-d098-4237-a252-1fbc7b496d51.png">
+
+[EE552 Project Final Report.pdf](https://github.com/jiru1997/NOC-Convolutional-Neural-Network-implementation-5x5-filter-7x7-mapper-/files/7500784/EE552.Project.Final.Report.pdf)
